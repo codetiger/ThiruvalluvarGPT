@@ -1,0 +1,15 @@
+{
+    "allow_gpu": false,
+    "batch_size": 32,
+    "block_size": 64,
+    "max_iters": 10000,
+    "learning_rate": 5e-4,
+    "eval_interval" : 500,
+    "eval_iters" : 200,
+    "n_embd" : 384,
+    "n_head" : 6,
+    "n_layer" : 6,
+    "dropout" : 0.2,
+    "model_path": "ThiruvalluvarGPT.model",
+    "data_path": "kural.txt"
+}
